@@ -62,6 +62,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+- main.py will run 50 requests for nana1,nana2,nana3,..., nana48, nana49 you can change the search term
 ```sh
 python main.py
 ```
