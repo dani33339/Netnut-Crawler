@@ -10,6 +10,7 @@ Netnut Crawler is a Python-based web scraper designed to interact with the [NetN
 - **Threading Logic**: Uses multi-threading to efficiently handle multiple requests concurrently.
 - **Locks and Synchronization**: Ensures thread safety using locks to prevent resource conflicts.
 - **Proxy Ban Handling**: Detects and switches proxies when an IP gets banned.
+- **Result Storage**: Saves scraped results in .txt files named after the search term for easy access and further analysis.
 
 ## How It Works
 1. Extracts access keys (`client_id`, `client_secret`) from NetNut's JavaScript files to authenticate API requests.
@@ -18,7 +19,11 @@ Netnut Crawler is a Python-based web scraper designed to interact with the [NetN
 3. Automatically retries with a different proxy upon failure.
 4. Uses threading to speed up the crawling process while maintaining efficiency.
 5. Implements locks to ensure smooth execution in a multi-threaded environment.
+6. Saves the scraped results in a {search term}.txt file for easy access and further analysis.
 
+## Example of Saved Results
+- The results are saved in `.txt` files, with each file named after the corresponding search term. 
+- For instance, the results for the search term `nana1` are saved in a file named `nana1.txt`. You can view an example of a saved result file [here](https://github.com/dani33339/Netnut-Crawler/blob/main/nana1.txt).
 
 ## Development Process
 This project required extensive planning, research, and debugging:
