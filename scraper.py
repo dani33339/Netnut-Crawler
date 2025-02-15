@@ -75,7 +75,7 @@ def retry_with_tracking(tries=10):
 
 def get_access_keys(proxy):
     """
-    Extracts access keys from the JavaScript file using a given proxy.
+    Extracts access keys from netnut api using a given proxy.
 
     :param proxy: The proxy to use for the request
     :return: A tuple containing (client_id, client_secret) if found, otherwise raises an error
