@@ -62,9 +62,10 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-- main.py will run 50 requests for nana1,nana2,nana3,..., nana48, nana49 you can change the search term
+- `main.py` will run 50 requests for search terms `nana1`, `nana2`, `nana3`, ..., `nana48`, `nana49`.
+- You can modify the search terms in the script to suit your needs.
+
 ```sh
 python main.py
-```
 
 
