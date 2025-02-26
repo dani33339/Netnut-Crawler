@@ -80,7 +80,7 @@ def get_access_keys(proxy):
     :param proxy: The proxy to use for the request
     :return: A tuple containing (client_id, client_secret) if found, otherwise raises an error
     """
-    url = "https://playground.netnut.io/_next/static/chunks/9090-a574c0e3a82b06aa.js"
+    url = "https://playground.netnut.io/_next/static/chunks/5396-fb805b9d40b0a4c9.js"
 
     headers = {
         'Referer': 'https://playground.netnut.io/playground/',

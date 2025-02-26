@@ -1,12 +1,8 @@
 import time
 import threading
 import logging
-
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-
-ua = UserAgent()
-
 
 class ProxyManager:
     def __init__(self):
